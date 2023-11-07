@@ -64,3 +64,60 @@ nav li a:hover{
     font-size: 58px;
     font-weight: 600;
 }
+.texto .botoes{
+    margin-top: 30px;
+}
+.texto .botoes button{
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+.texto .botoes button.n-overlay{
+    color: white;
+    background: none;
+    border: 2px solid white;
+}
+.texto .botoes button.n-overlay:hover{
+    color: black;
+    background-color: white;
+}
+.texto .botoes button.overlay{
+    background: white;
+    color: black;
+    animation: vibrar 0.5s ease-in-out infinite both;
+}
+@keyframes vibrar {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+/*Marsh contato html*/
+}
+.titulo1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+}
+main {
+    padding: 30px 50px;
+}
+#quadrado {
+    background-color: #18929D;
+}
+label {
+    color: #200b7c;
+}
+/*marsh*/

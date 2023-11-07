@@ -24,14 +24,62 @@
         </ul>
 
     </nav>
+    
     <section class="banner">
         <div class="texto">
+            <!--Botões-->
             <h1 class="titulo">contato</h1>
-           <div class="botoes">
-               <button class="n-overlay">Saiba Mais</button>
-               <button class="overlay">Inscrever</button>
-           </div>
+           
+           <br>
+    <!--*********************Blocão***********************-->
+           <fieldset id="quadrado">
+           <main>
+           <form action="/formulario-contato" method="post"></form>
+        <div>
+            <label for="nome">Nome </label>
+            <br>
+            <input type="texto" id="nome" name="nome_usuario">
         </div>
+        <div>
+            <label for="email">E-mail </label>
+            <br>
+            <input type="email" id="email" name="email_usuario">
+        </div>
+        <div>
+            <label for="texto">Texto </label>
+            <br>
+            <textarea id="texto" name="texto_usuario"></textarea>
+       
+        </div>
+            </main>
+            </fieldset>
+    </form>
+    <!--***********Fim do blocão************-->
+    <br>
+    <html>
+        <head>
+        <title>O que você precisa?</title>
+        </head>
+        <body>
+         
+        <h1 id="titulo1">Qual é a opção que mais se encaixa com sua situação atual?</h1>
+        <form method="post" action="cadastrar-enquete.php">
+        <select name="opções">
+        <option value="bully">Problemas de Bullying</option>
+        <option value="nota">Problemas com nota</option>
+        <option value="psicoProblem">Problemas Psicológicos</option>
+        <option value="Fisico">Problema Físico</option>
+
+        </select>
+        
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Cancelar" />
+        </form>
+        </body>
+        </html>
+        
+   </div>
     </section>
+    
 </body>
 </html>
