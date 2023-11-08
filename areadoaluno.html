@@ -1,38 +1,129 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>CLass Social</title>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>chat</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/area.css'>
+    <script src='chat.js'></script>
 </head>
 <body>
-    <nav>
-
+  <nav>
  
-        <div class="logo">
-            <img src="img/logo.png" alt="">
-         </div>
- 
+    <div class="logo">
+        <img src="img/logo.png" alt="">
+     </div>
 
-        <ul>
-            <li> <a href="index.html"> Chat </a> </li>
-            <li> <a href="areadoaluno.html"> Area do Aluno </a> </li>
-            <li> <a href="recursos.html"> Recursos </a> </li>
-            <li> <a href="sobre.html"> Sobre </a> </li>
-            <li> <a href="contato.html"> Contato </a> </li>
-        </ul>
+    <ul>
+        <li> <a href="index.html"> Inicio</a> </li>
+        <li> <a href="areadoaluno.html"> Area do Aluno </a> </li>
+        <li> <a href="recursos.html"> Recursos </a> </li>
+        <li> <a href="sobre.html"> Sobre </a> </li>
+        <li> <a href="contato.html"> Contato </a> </li>
+    </ul>
 
-    </nav>
-    <section class="banner">
-        <div class="texto">
-            <h1 class="titulo">Area do Aluno</h1>
-           <div class="botoes">
-               <button class="n-overlay">Saiba Mais</button>
-               <button class="overlay">Inscrever</button>
-           </div>
-        </div>
-    </section>
+</nav>
+    <div class="page-content page-container" id="page-content">
+        <div class="padding">
+            <div class="row container d-flex justify-content-center">
+    <div class="col-md-6">
+                <div class="card card-bordered">
+                  <div class="card-header">
+                    <h4 class="card-title"><strong>Chat</strong></h4>
+                    <a class="btn btn-xs btn-secondary" href="#" data-abc="true">Let's Chat App</a>
+                  </div>
+    
+    
+                  <div class="ps-container ps-theme-default ps-active-y" id="chat-content" style="overflow-y: scroll !important; height:400px !important;">
+                    <div class="media media-chat">
+                      <img class="avatar" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="...">
+                      <div class="media-body">
+                        <p>Professor</p>
+                        <p>Preciso falar com você sobre o leonardo</p>
+                        <p>O senhor pode falar agora?<br></p>
+                        <p class="meta"><time datetime="2018">23:58</time></p>
+                      </div>
+                    </div>
+    
+                    <div class="media media-meta-day">Hoje</div>
+    
+                    <div class="media media-chat media-chat-reverse">
+                      <div class="media-body">
+                        <p>Oi, posso sim</p>
+                        <p>O que aconteceu?</p>
+                        <p>Poderia me falar?</p>
+                        <p class="meta"><time datetime="2018">23:59</time></p>
+                      </div>
+                    </div>
+    
+                    <div class="media media-chat">
+                      <img class="avatar" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="...">
+                      <div class="media-body">
+                        <p>Sim</p>
+                        <p> O leo esta me tratando<br> muito mal ultimamente </p>
+                        <p class="meta"><time datetime="2018">00:07</time></p>
+                      </div>
+                    </div>
+    
+                    <div class="media media-chat media-chat-reverse">
+                      <div class="media-body">
+                        <p>Entendo</p>
+                        <p>Mais como ele esta te tratando mal?</p>
+                        <p>Poderia me dizer?</p>
+                        <p class="meta"><time datetime="2018">00:09</time></p>
+                      </div>
+                    </div>
+    
+                    <div class="media media-chat">
+                      <img class="avatar" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="...">
+                      <div class="media-body">
+                        <p>Ele fica constantemente me chamando de <br>baixinho pintura de rodapé, anão, gnomio, tampinha etc...  </p>
+                        <p class="meta"><time datetime="2018">00:10</time></p>
+                      </div>
+                    </div>
+    
+                    <div class="media media-chat media-chat-reverse">
+                      <div class="media-body">
+                        <p>Entendo, ele esta cometendo bullyng com você, irei informar o diretor amanhã mesmo ok?</p>
+                        <p class="meta"><time datetime="2018">00:10</time></p>
+                      </div>
+                    </div>
+    
+                    <div class="media media-chat">
+                      <img class="avatar" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="...">
+                      <div class="media-body">
+                        <p>Ok... Muito obrigado professor</p>
+                        <p class="meta"><time datetime="2018">00:12</time></p>
+                      </div>
+                    </div>
+    
+                    <div class="media media-chat media-chat-reverse">
+                      <div class="media-body">
+                        <p>Denada, te vejo amanhã</p>
+                        <p class="meta"><time datetime="2018">00:12</time></p>
+                      </div>
+                    </div>
+    
+                  <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; height: 0px; right: 2px;"><div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 2px;"></div></div></div>
+    
+                  <div class="publisher bt-1 border-light">
+                    <img class="avatar avatar-xs" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="...">
+                    <input class="publisher-input" type="text" placeholder="Escreva alguma coisa">
+                    <span class="publisher-btn file-group">
+                      <i class="fa fa-paperclip file-browser"></i>
+                      <input type="file">
+                    </span>
+                    <a class="publisher-btn" href="#" data-abc="true"><i class="fa fa-smile"></i></a>
+                    <a class="publisher-btn text-info" href="#" data-abc="true"><i class="fa fa-paper-plane"></i></a>
+                  </div>
+    
+                 </div>
+              </div>
+              </div>
+              </div>
+              </div>
+
+              
 </body>
 </html>
